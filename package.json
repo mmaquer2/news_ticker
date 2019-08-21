@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "dist": "surge --domain newstickertest-io.surge.sh"
+    },
+    "devDependencies": {
+        "electron": "^6.0.3"
+    }
+}

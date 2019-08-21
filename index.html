@@ -18,6 +18,8 @@
         <div class="ticker-item">INTC +.50 (54.20)</div>
         <div class="ticker-item">USA Women Win Soccer World Cup</div>
         <div class="ticker-item"> Washington Capitals Win Stanely Cup</div>
+        <div class="ticker-item" id="output">  </div>
+        
       </div>
     </div>
   </div>
@@ -52,7 +54,16 @@
 <div class="panel">
         <button class="accordion"> Stocks</button>
         <div class="panel">
-        <p>Search for Stocks Ticker: </p>
+                <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-sm">Enter Stock Ticker to Follow:</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                      </div>
+                      <br>
+                      <p id ="stock_output"></p>
+                      <br>
+                      <p> Add: </p><input type="checkbox" id="myCheck" onclick="test()">
         </div>
         <button class="accordion"> Currency</button>
         <div class="panel">
@@ -65,15 +76,25 @@
   
 </div>
 
-<button class="accordion">Politics</button>
+<button class="accordion">Publications</button>
 <div class="panel">
         <button class="accordion"> World</button>
         <div class="panel">
-        <p>Search for Stocks Ticker: </p>
+                <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Enter News Publication to Follow:</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+              </div>
+              <p> Add: </p><input type="checkbox" id="myCheck" onclick="test()">
+              <p> Add: </p><input type="checkbox" id="myCheck" onclick="test()">
         </div>
         <button class="accordion"> National</button>
         <div class="panel">
-        <p> Washington DC </p>
+        <p> Washington Post </p>
+        <p> Add: </p><input type="checkbox" id="myCheck" onclick="test()">
+        <p>New York Times</p>
+        <p> Add: </p><input type="checkbox" id="myCheck" onclick="test()">   
         <br>
         <p></p>
         </div>

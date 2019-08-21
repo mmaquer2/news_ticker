@@ -2,11 +2,11 @@
     //-Api news (headlines)
     //alpha vantage (stocks)
     //espn (sports)
-
+    //wolfram alpha api
     function test() {
         console.log('hello world')
         
-
+        document.getElementById('output').innerHTML = "test test test"
     }
 
     const alpha_key = ('YIF9NU7FLVJWG46Q');
